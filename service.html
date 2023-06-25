@@ -294,6 +294,18 @@
     </div>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.js"></script>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $("header").addClass("fixed")
+            }
+            else {
+                $("header").removeClass("fixed")
+            }
+        })
+    </script>
 </body>
 
 </html>
