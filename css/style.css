@@ -176,4 +176,13 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+}
+
+.fixed {
+  box-shadow: 0px 0px 5px;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }/*# sourceMappingURL=style.css.map */
